@@ -1,6 +1,20 @@
+# Created by https://www.gitignore.io/api/git,java,gradle
+# Edit at https://www.gitignore.io/?templates=git,java,gradle
 
-# Created by https://www.gitignore.io/api/java,gradle
-# Edit at https://www.gitignore.io/?templates=java,gradle
+### Git ###
+# Created by git for backups. To disable backups in Git:
+# $ git config --global mergetool.keepBackup false
+*.orig
+
+# Created by git when using merge tools for conflicts
+*.BACKUP.*
+*.BASE.*
+*.LOCAL.*
+*.REMOTE.*
+*_BACKUP_*.txt
+*_BASE_*.txt
+*_LOCAL_*.txt
+*_REMOTE_*.txt
 
 ### Java ###
 # Compiled class file
@@ -46,5 +60,5 @@ gradle-app.setting
 ### Gradle Patch ###
 **/build/
 
-# End of https://www.gitignore.io/api/java,gradle
+# End of https://www.gitignore.io/api/git,java,gradle
 
