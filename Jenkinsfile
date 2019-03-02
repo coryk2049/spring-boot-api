@@ -1,4 +1,4 @@
 on_commit {
-    static_code_analysis()
+//    static_code_analysis()
     build()
 }
