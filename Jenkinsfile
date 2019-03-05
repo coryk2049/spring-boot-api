@@ -1,6 +1,6 @@
 
 
-unit_test()
+example()
 static_code_analysis()
 build()
 
