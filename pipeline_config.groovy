@@ -7,7 +7,7 @@ allow_scm_jenkinsfile = false
   library sources configured.
 */
 libraries {
-  example_library
+  gradle
   sdp {
     images {
       registry = "http://localhost:5000"        // registry url
