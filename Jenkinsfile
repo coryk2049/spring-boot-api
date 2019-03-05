@@ -1,6 +1,6 @@
 
 
-gradle()
+build_jar()
 static_code_analysis()
 build()
 
