@@ -3,6 +3,7 @@
 build_jar()
 static_code_analysis()
 build()
+accessibility_compliance_test()
 
 //scan_container_image()
 //penetration_test()

@@ -8,6 +8,9 @@ allow_scm_jenkinsfile = false
 */
 libraries {
   gradle
+  a11y {
+    url = "https://example.com"
+  }
   sdp {
     images {
       registry = "http://localhost:5000"        // registry url
