@@ -9,6 +9,7 @@ allow_scm_jenkinsfile = false
 libraries {
   gradle
   a11y {
+//    url = "https://example.com"
     url = "https://example.com"
   }
   sdp {
