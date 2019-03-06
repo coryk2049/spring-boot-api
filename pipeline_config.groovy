@@ -10,7 +10,7 @@ libraries {
   gradle
   a11y {
 //    url = "https://example.com"
-    url = "https://example.com"
+    url = "http://localhost:8088"
   }
   sdp {
     images {
@@ -27,5 +27,6 @@ libraries {
   docker {
     registry = "localhost:5000"
     cred = "sdp-docker-registry"
+    docker_args = "--network=try-it-out_sdp"
   }
 }
